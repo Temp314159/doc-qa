@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finrag"
+version = "0.1.0"
+description = "Local multimodal RAG agent for reports and documents"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "docling>=2.60,<2.61", "PyMuPDF>=1.26,<1.27",
+  "sentence-transformers>=5.1,<5.2", "transformers>=4.57,<4.58",
+  "easyocr==1.7.2", "numpy>=2.2,<2.3", "pydantic>=2.11,<3",
+  "jieba==0.42.1", "openai>=2,<3", "python-dotenv>=1.1,<2",
+  "reportlab>=4.4,<4.5", "Pillow>=11,<12", "matplotlib>=3.10,<3.11",
+  "pytest>=8.4,<9", "streamlit>=1.50,<1.51", "psutil>=7.2,<8", "filelock>=3.32,<4"
+]
+
+[project.scripts]
+finrag = "finrag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=.cache/pytest"

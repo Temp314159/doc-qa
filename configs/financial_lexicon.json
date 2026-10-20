@@ -1,0 +1,4 @@
+{
+  "terms": ["营业收入","营业成本","研发费用","销售费用","管理费用","净利润","货币资金","跨页表格","宁德时代","微软","苹果","资产负债表","增长率","同比增长"],
+  "synonyms": {"收入":"revenue", "营收":"revenue", "营业收入":"revenue", "净利润":"net income", "研发费用":"research development", "销售费用":"sales marketing", "现金":"cash", "货币资金":"cash", "总资产":"total assets", "资产总计":"total assets", "存货":"inventories", "微软":"microsoft", "苹果":"apple", "宁德时代":"catl", "收入增长":"revenue growth", "销售额":"net sales"}
+}

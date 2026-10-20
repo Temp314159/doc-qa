@@ -1,0 +1,48 @@
+{
+  "microsoft2024": {
+    "company": "Microsoft 微软", "language": "en", "split": "dev", "pages": [10,11,27,28,44,45,46,47,48,49,50,77], "scan_original_pages": [11,44],
+    "figure_regions": [{"page":10,"bbox":[72,70,544,650],"title":"微软五年累计总回报比较图"}],
+    "lookups": [
+      [44,"Total revenue","245,122","211,915","USD million"],
+      [44,"Net income","88,136","72,361","USD million"],
+      [44,"Research and development","29,510","27,195","USD million"],
+      [44,"Operating income","109,433","88,523","USD million"],
+      [46,"Total assets","512,163","411,976","USD million"],
+      [46,"Cash and cash equivalents","18,315","34,704","USD million"],
+      [46,"Total liabilities","243,686","205,753","USD million"],
+      [46,"Inventories","1,246","2,500","USD million"]
+    ]
+  },
+  "apple2024": {
+    "company":"Apple 苹果", "language":"en", "split":"test", "pages":[4,5,23,24,25,26,27,32,33,34,35,36,37,50], "scan_original_pages":[4,32],
+    "figure_regions":[{"page":23,"bbox":[49,125,561,462],"title":"苹果五年累计总回报折线图"}],
+    "lookups":[
+      [32,"Total net sales","391,035","383,285","USD million"],
+      [32,"Research and development","31,370","29,915","USD million"],
+      [32,"Operating income","123,216","114,301","USD million"],
+      [32,"Net income","93,736","96,995","USD million"],
+      [32,"Gross margin","180,683","169,148","USD million"],
+      [25,"Americas","167,045","162,560","USD million"],
+      [25,"Europe","101,328","94,294","USD million"],
+      [25,"Greater China","66,952","72,559","USD million"],
+      [25,"Japan","25,052","24,257","USD million"],
+      [25,"Rest of Asia Pacific","30,658","29,615","USD million"]
+    ]
+  },
+  "catl2024": {
+    "company":"宁德时代 CATL", "language":"zh", "split":"test", "pages":[10,13,14,15,114,115,116,119,120,121], "scan_original_pages":[13,119],
+    "figure_regions":[{"page":14,"bbox":[120,66,496,275],"title":"宁德时代动力电池、储能电池及创新解决方案图"}],
+    "lookups":[
+      [119,"一、营业总收入","362,012,554","400,917,045","人民币千元"],
+      [119,"其中：营业成本","273,518,959","323,982,130","人民币千元"],
+      [119,"研发费用","18,606,756","18,356,108","人民币千元"],
+      [119,"销售费用","3,562,797","3,042,744","人民币千元"],
+      [119,"管理费用","9,689,839","8,461,824","人民币千元"],
+      [114,"货币资金","303,511,993","264,306,515","人民币千元"],
+      [114,"存货","59,835,533","45,433,890","人民币千元"],
+      [115,"资产总计","786,658,123","717,168,041","人民币千元"],
+      [115,"固定资产","112,589,053","115,387,960","人民币千元"],
+      [116,"负债合计","513,201,949","497,284,890","人民币千元"]
+    ]
+  }
+}

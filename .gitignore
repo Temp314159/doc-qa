@@ -1,0 +1,55 @@
+# Only these files are intended for publication.
+# Everything else remains local, including new files.
+*
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/requirements.lock.txt
+!/run_demo.py
+!/stop_demo.py
+!/streamlit_app.py
+!/Start Workbench.cmd
+!/Stop Workbench.cmd
+!/启动工作台.cmd
+!/关闭工作台.cmd
+!/.streamlit/
+!/.streamlit/config.toml
+!/configs/
+!/configs/runtime.json
+!/configs/financial_lexicon.json
+!/configs/original_annotations.json
+!/scripts/
+!/scripts/session.ps1
+!/scripts/download_sources.py
+!/scripts/download_models.py
+!/scripts/prepare_corpus.py
+!/src/
+!/src/finrag/
+!/src/finrag/__init__.py
+!/src/finrag/agent.py
+!/src/finrag/budget.py
+!/src/finrag/calculator.py
+!/src/finrag/cli.py
+!/src/finrag/deepseek.py
+!/src/finrag/demo_process.py
+!/src/finrag/evaluation.py
+!/src/finrag/ingestion.py
+!/src/finrag/numbers.py
+!/src/finrag/paths.py
+!/src/finrag/preparation.py
+!/src/finrag/retrieval.py
+!/src/finrag/schema.py
+!/src/finrag/store.py
+!/src/finrag/ui_components.py
+!/src/finrag/ui_credentials.py
+!/src/finrag/ui_format.py
+!/src/finrag/ui_history.py
+!/src/finrag/ui_service.py
+!/src/finrag/ui_text.py
+!/src/finrag/views.py
+!/docs/
+!/docs/assets/
+!/docs/assets/0001.png
+!/docs/assets/0002.png
+!/docs/assets/0003.png
+!/docs/assets/0004.png
