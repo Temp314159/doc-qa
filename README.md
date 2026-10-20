@@ -2,7 +2,7 @@
 
 A local multimodal RAG agent for searching reports and documents, answering with source references, reading images, and performing evidence-based calculations.
 
-This is a personal-use project, published mainly as a record that the work exists.
+This is a personal-use project, published mainly as a record to prove my work.
 
 ## Basic use
 
